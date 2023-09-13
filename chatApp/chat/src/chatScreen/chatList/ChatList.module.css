@@ -1,0 +1,28 @@
+body {font-family: "Century Gothic"  !important;}  
+    /* Style the chat list */
+    .chatList {
+      background-color: #F0F0F0;
+      padding: 0;
+      height: 100%;
+      bottom: 30px;
+      top: 30px;
+    }
+   
+    /* Style the chat list items */
+    .chatList ul {
+       overflow-y: scroll;
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .chatList li{
+       align-items: center;
+    }
+    .chatList li:hover{
+      background-color: rgb(54 119 184/20%);  
+    }
+
+    .search {
+      border: 1px solid black;
+    }
+
+    

@@ -1,0 +1,121 @@
+
+    /* Style the current chat */
+    .currentChat {
+        padding-bottom: 0px;
+      }
+     
+      /* Style the chat messages */
+      .chatMessages {
+         clear: both;
+        border: 1px solid #dee2e6;
+        height: 530px;
+        overflow-y: scroll;
+        background-color: rgb(255, 215, 230);
+        background-image: url('../../chats.jpg');
+        background-size: cover;
+
+        
+      }
+      .chatMessages p {
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+
+      .hideScrollbar {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+        overflow: -moz-scrollbars-none; /* Firefox */
+      }
+      .hideScrollbar::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, and Opera */
+      }
+      
+   
+  .container {
+    margin-bottom: 20%;
+    padding: 6px;
+  }
+   
+    /* Style the chat input */
+    .formText {
+        display: flex;
+        margin-block-end: auto;
+        border: 1px solid #dee2e6;
+        display: flex;
+      
+      }
+      .chatInput {
+        flex: 1;
+        padding: none;
+        border: none;
+        background-color: rgb(255, 255, 255);
+      }
+      
+  .sendBTN {
+    background-color: rgb(255 79 143);
+    border-color: rgb(255 79 143);
+    width: auto;
+  }
+
+  
+    /* speech bubble for the sender*/
+    #myMessage {
+      width: fit-content;
+      text-align: center;
+      position: relative;
+      margin-inline-start: auto;
+      margin-right: 20px;
+      color: #dee2e6;
+      background-color: rgb(54, 119, 184);
+    }
+    .myMessage:before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      border-left: 10px solid rgb(54, 119, 184);
+      border-right: 10px solid transparent;
+      border-top: 10px solid rgb(54, 119, 184);
+      border-bottom: 10px solid transparent;
+      right: -19px;
+      top: 6px;
+    }
+    
+    /* speech bubble for the receiver*/
+    #otherMessage {
+      width: fit-content;
+      text-align: center;
+      position: relative;
+      margin-left: 20px;
+      color: #dee2e6;
+      background-color: rgb(0 0 0 / 47%);
+    }
+    .otherMessage:before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      border-left: 10px solid transparent;
+      border-right: 10px solid rgb(0 0 0 / 47%);
+      border-top: 10px solid rgb(0 0 0 / 47%);
+      border-bottom: 10px solid transparent;
+      left: -19px;
+      top: 6px;
+    }
+      
+  /* Styling the msg-sent time  */
+  .time {
+    color: #ffffff;
+    display: block;
+    font-size: 11px;
+    margin: 4px 0 0;
+    text-align: end;
+  }
+  .CurrentChat_container__m6zT1 {
+    margin-top: 5% !important;
+}
+ 
+
+
+  
