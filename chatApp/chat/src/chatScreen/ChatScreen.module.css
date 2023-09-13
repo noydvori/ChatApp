@@ -1,0 +1,23 @@
+/* card "window" */
+#cardChat {
+    background-color: rgb(255, 255, 255) !important;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   transition: 0.3s;
+   width: 85%; 
+   margin-left: auto;
+   margin-right: auto;
+   top: 50px;
+  }
+  
+  .container {
+    padding: 6px;
+  }
+  .roundedCircle {
+    float: left;
+    height: 100%;
+    border-radius: 50%!important;
+  }
+  .modal-title {
+    color: black;
+  }
+   

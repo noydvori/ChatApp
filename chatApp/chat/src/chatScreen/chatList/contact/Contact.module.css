@@ -1,0 +1,36 @@
+.box img{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+  }
+  
+.box{
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 7px;
+    margin-right: 20px;
+    padding: 0px; 
+}
+.box2{
+    float: left;
+    height: 50px;
+    width: 50px;
+}
+
+.roundedCircle {
+    float: left;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%!important;
+  }
+  .nameLastsentance{
+    float: left;
+    padding-left: 10px;
+  }
+  
+  /* marks the time when theres unread message */
+  .nmsg {
+    color:rgb(54, 119, 184) !important;
+    font-weight: bold;
+  }

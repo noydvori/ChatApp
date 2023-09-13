@@ -1,0 +1,239 @@
+
+body {font-family: "Century Gothic"  !important;
+    background-image: url('../page.jpg')}  
+  
+    /* Style the chat list */
+    .chat-list {
+      background-color: #F0F0F0;
+      padding: 0;
+      height: 100%;
+      bottom: 30px;
+      top: 30px;
+    }
+   
+    /* Style the chat list items */
+    .chat-list ul {
+       overflow-y: scroll;
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .chat-list li{
+       align-items: center;
+    }
+    .chat-list li:hover{
+      background-color: rgb(54 119 184/20%);  
+    }
+    .chat-list li img{
+      float: left;
+    }
+    .chat-list li .nameLastsentance{
+      float: left;
+      padding-left: 10px;
+    }
+   
+    /* Style the current chat */
+    .current-chat {
+      padding-bottom: 0px;
+    }
+   
+    /* Style the chat messages */
+    .chat-messages {
+       clear: both;
+      border: 1px solid #dee2e6;
+      height: 530px;
+      overflow-y: scroll;
+      background-color: rgb(255, 215, 230);
+      background-image: url('../chats.jpg');
+      background-size: cover;
+      
+    }
+    .chat-messages p {
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    /* Style the chat input */
+    .chat-input {
+      display: flex;
+      margin-block-end: auto;
+      border: 1px solid #dee2e6;
+      display: flex;
+    
+    }
+    .chat-input input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      background-color: rgb(255, 255, 255);
+    }
+  
+    /* speech bubble for the sender*/
+    #sb1 {
+      width: fit-content;
+      text-align: center;
+      position: relative;
+      margin-inline-start: auto;
+      margin-right: 20px;
+      color: #dee2e6;
+      background-color: rgb(54, 119, 184);
+    }
+    .sb1:before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      border-left: 10px solid rgb(54, 119, 184);
+      border-right: 10px solid transparent;
+      border-top: 10px solid rgb(54, 119, 184);
+      border-bottom: 10px solid transparent;
+      right: -19px;
+      top: 6px;
+    }
+    
+    /* speech bubble for the receiver*/
+    #sb2 {
+      width: fit-content;
+      text-align: center;
+      position: relative;
+      margin-left: 20px;
+      color: #dee2e6;
+      background-color: rgb(0 0 0 / 47%);
+    }
+    .sb2:before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      border-left: 10px solid transparent;
+      border-right: 10px solid rgb(0 0 0 / 47%);
+      border-top: 10px solid rgb(0 0 0 / 47%);
+      border-bottom: 10px solid transparent;
+      left: -19px;
+      top: 6px;
+    }
+  
+    /* styling chat input bottom */
+   .chat-input button {
+       padding: 10px;
+     border-radius: 5px;
+     border: none;
+     background-color:  rgb(255 79 143);
+     color: white;
+     cursor: pointer;
+   }
+   .chat-input button:hover {
+     background-color: rgb(252, 19, 104);
+   }
+  
+   /* card "window" */
+   #cardChat {
+     background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 100%; 
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 30px;
+   }
+   
+  .container {
+    padding: 6px;
+  }
+   
+  .position-absolute {
+    padding-right: 15px;
+  }
+  
+  .badge {
+    margin-top: 10px;
+    background-color: rgb(54, 119, 184) !important;
+  }
+   
+  .col-4{
+    padding: 0;
+  }
+   
+  .col-8{
+    padding: 0;
+  }
+  .rounded-circle {
+    float: left;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .box img{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+  }
+  
+  .box{
+    float: left;
+    height: 70px;
+    width: 70px;
+    margin-bottom: 7px;
+    margin-right: 20px;
+    padding: 0px; 
+   }
+  .box2{
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+   
+  .row {
+    clear: both;
+    width: 100%;
+    margin: 0;
+  }
+  
+   /* styling add botton */
+   #addBtn {
+    height: 60%;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: rgb(255 79 143);
+  
+   }
+   #addBtn:hover {
+    background-color: rgb(255 79 143);
+  
+  }
+  
+  p {
+    overflow-wrap: break-word;
+  }
+  
+  /* Styling the msg-sent time  */
+  .time {
+    color: #ffffff;
+    display: block;
+    font-size: 11px;
+    margin: 4px 0 0;
+    text-align: end;
+  }
+  /* backgroung color for the top line */
+  .align-self-center {
+    background-color: rgb(255 79 143);
+    color: white;
+  }
+  /* marks the time when theres unread message */
+  .nmsg {
+    color:rgb(54, 119, 184) !important;
+    font-weight: bold;
+  }
+  
+  .modal-title {
+    color: black;
+  }
+  
+  .sendBTN {
+    background-color: rgb(255 79 143);
+    border-color: rgb(255 79 143);
+    width: auto;
+  }
+  
+  

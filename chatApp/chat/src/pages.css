@@ -1,0 +1,76 @@
+body {font-family: "Century Gothic"  !important;
+    background-image: url(page1.jpg);
+    background-size: cover;} 
+    
+    form {border: 3px solid #f1f1f1;}
+    
+    input[type=text], input[type=password] ,[type=file]{
+      width: 100%;
+      padding: 12px 12px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #c1c1c1;
+      box-sizing: border-box;
+    }
+    
+    button {
+      background-color:  rgb(255 79 143);
+      color: rgb(255, 255, 255);
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+    }
+    
+    [type=submit], button {
+      font-size:x-large ;
+    }
+    
+    button:hover {
+      opacity: 0.8;
+      background-color:  rgb(255, 0, 93);
+    }
+    
+    
+    .card {
+      background-color: rgb(255, 255, 255) !important;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 50%;
+      height: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      top: 10px;
+    }
+    
+    h2 {
+      color:rgb(84, 83, 83) !important;
+      margin-top: 6px !important;
+      display: block;
+      font-size: 1.5em;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      text-align: center;
+      font-weight: bold;
+    }
+    
+    b {
+      color:rgb(84, 83, 83);
+    }
+    
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px 0;
+    }
+    
+    .container {
+      padding: 16px;
+      color:rgb(62, 62, 62);
+    }
+    
+    .not_register {
+      text-align: center;
+    }
+
+  
