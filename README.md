@@ -1,4 +1,4 @@
-# Web Chatting App
+# Web-Chatting App
 
 Welcome to our cross-platform chat application! This application allows users to chat in real-time across various platforms. We've developed an efficient server using Node.js with the Express framework, and we utilize MongoDB as the database to store and retrieve data. The client-side was built using React, and real-time communication is achieved through Socket.IO.
 
@@ -47,6 +47,6 @@ This command loads the environment variables from the `.env.local` file to the s
 
 ## Contributors
 
-This project was developed by Ronnie and Noy (EX2). 
+This project was developed by Ronnie and Noy. 
 
 Thank you for using our web chatting app! If you have any issues or questions, please don't hesitate to reach out. Happy chatting!
